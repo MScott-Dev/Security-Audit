@@ -218,6 +218,61 @@ Based on the identified findings, the following improvements would help strength
 
 ---
 
+## 📋 Compliance Checklist & Assessment
+
+The following checklist evaluates Botium Toys' existing security controls against three major compliance frameworks: PCI DSS, GDPR, and SOC 1/SOC 2.
+
+Each item is assessed based on the available audit findings.
+
+### 💳 Payment Card Industry Data Security Standard (PCI DSS)
+
+| Security Requirement | Yes | No | Best Practice |
+|:---|:---:|:---:|:---:|
+| Only authorized users have access to customers' credit card information. | | ❌ | Implement role-based access control and least privilege. |
+| Credit card information is stored, accepted, processed, and transmitted internally in a secure environment. | | ❌ | Establish secure payment processing environments and restrict access to cardholder data. |
+| Implement data encryption procedures to better secure credit card transaction touchpoints and data. | | ❌ | Encrypt sensitive payment information both at rest and in transit. |
+| Adopt secure password management policies. | | ❌ | Implement stronger password policies and centralized password management. |
+
+**Assessment:** Botium Toys does not currently meet several important PCI DSS security practices. Employees have broad access to internal data, credit card information is not encrypted, and password management controls are insufficient.
+
+**Recommended Action:** Prioritize protecting cardholder data through encryption, restricted access, and stronger authentication and password management controls.
+
+### 🌎 General Data Protection Regulation (GDPR)
+
+| Security Requirement | Yes | No | Best Practice |
+|:---|:---:|:---:|:---:|
+| E.U. customers' data is kept private and secured. | | ❌ | Implement appropriate access restrictions and data encryption. |
+| There is a plan in place to notify E.U. customers within 72 hours if their data is compromised or there is a breach. | ✅ | | Maintain and regularly test the breach notification procedure. |
+| Ensure data is properly classified and inventoried. | | ❌ | Establish data classification and asset inventory procedures. |
+| Enforce privacy policies, procedures, and processes to properly document and maintain data. | ✅ | | Regularly review and update privacy policies and procedures. |
+
+**Assessment:** Botium Toys has established some privacy practices and a breach notification plan. However, insufficient access restrictions, lack of encryption, and inadequate asset and data classification practices create potential compliance concerns.
+
+**Recommended Action:** Improve data classification, implement stronger data protection controls, and maintain documented privacy and breach response procedures.
+
+### 🏢 System and Organization Controls (SOC 1 / SOC 2)
+
+| Security Requirement | Yes | No | Best Practice |
+|:---|:---:|:---:|:---:|
+| User access policies are established. | | ❌ | Establish formal access control policies, least privilege, and separation of duties. |
+| Sensitive data (PII/SPII) is confidential and private. | | ❌ | Implement encryption and restrict access to sensitive information. |
+| Data integrity ensures information is consistent, complete, accurate, and validated. | ✅ | | Continue monitoring and testing data integrity controls. |
+| Data is available to individuals authorized to access it. | ✅ | | Maintain availability controls and implement regular backups and disaster recovery procedures. |
+
+**Assessment:** Botium Toys has implemented availability and data integrity controls. However, the lack of appropriate access restrictions and insufficient protection of sensitive information create weaknesses in its security posture.
+
+**Recommended Action:** Strengthen access management, protect sensitive information, and establish backup and disaster recovery procedures.
+
+---
+
+### 📊 Overall Compliance Summary
+
+| Framework | Controls Passing | Controls Failing | Total |
+|:---|:---:|:---:|:---:|
+| PCI DSS | 0 | 4 | 4 |
+| GDPR | 2 | 2 | 4 |
+| SOC 1 / SOC 2 | 2 | 2 | 4
+
 ## 📚 Skills Demonstrated
 
 Through this project, I developed and demonstrated an understanding of the following cybersecurity concepts:
