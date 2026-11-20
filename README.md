@@ -224,6 +224,63 @@ The following checklist evaluates Botium Toys' existing security controls agains
 
 Each item is assessed based on the available audit findings.
 
+## 🔐 Controls Assessment Checklist
+
+The following checklist evaluates the security controls currently implemented at Botium Toys. The assessment identifies existing safeguards and areas where additional security measures are needed.
+
+| Control | Yes | No |
+|:---|:---:|:---:|
+| Least Privilege | | ❌ |
+| Disaster Recovery Plans | | ❌ |
+| Password Policies | | ❌ |
+| Separation of Duties | | ❌ |
+| Firewall | ✅ | |
+| Intrusion Detection System (IDS) | | ❌ |
+| Backups | | ❌ |
+| Antivirus Software | ✅ | |
+| Manual Monitoring, Maintenance, and Intervention for Legacy Systems | ✅ | |
+| Encryption | | ❌ |
+| Password Management System | | ❌ |
+| Locks (Offices, Storefront, Warehouse) | ✅ | |
+| Closed-Circuit Television (CCTV) Surveillance | ✅ | |
+| Fire Detection/Prevention (Fire Alarm, Sprinkler System, etc.) | ✅ | |
+
+---
+
+### 📊 Controls Assessment Summary
+
+| Assessment | Total |
+|:---|---:|
+| ✅ Implemented Controls | 6 |
+| ❌ Missing or Insufficient Controls | 8 |
+| **Total Controls Evaluated** | **14** |
+
+**Control Implementation Rate: 42.9%**
+
+### 🔎 Key Findings
+
+**Existing Security Strengths:**
+- Firewall protection is implemented.
+- Antivirus software is installed and regularly monitored.
+- Legacy systems receive manual monitoring and maintenance.
+- Physical security includes functioning locks and CCTV surveillance.
+- Fire detection and prevention systems are operational.
+
+**Areas Requiring Improvement:**
+- Implement least privilege and separation of duties.
+- Establish disaster recovery plans and regular data backups.
+- Strengthen password policies and implement centralized password management.
+- Install an intrusion detection system (IDS).
+- Implement encryption to protect sensitive customer and payment information.
+
+### 🎯 Overall Assessment
+
+Botium Toys has several foundational security controls in place, particularly in network protection, antivirus monitoring, and physical security.
+
+However, significant gaps remain in access control, data protection, disaster recovery, and password management.
+
+**Recommendation:** Prioritize implementing missing security controls to reduce organizational risk, protect sensitive customer information, and improve the company's overall security posture.
+
 ### 💳 Payment Card Industry Data Security Standard (PCI DSS)
 
 | Security Requirement | Yes | No | Best Practice |
